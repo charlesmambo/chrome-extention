@@ -1,0 +1,49 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+body {
+    margin: 0;
+    padding: 10px;
+    font-size: 18px;
+    min-width: 400px;
+}
+input[type="text"] {
+    width: 100%;
+    border: 2px solid green;
+    border-radius: 4px;
+    padding: 8px 20px;
+    box-sizing: border-box;
+    font-family: inherit;
+    font-size: 18px;
+    outline: 0;
+    margin-bottom: 5px;
+}
+button {
+    width: 140px;
+    border: 2px solid rgb(6, 114, 6);
+    background-color: rgb(6, 114, 6);
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+    font-family: inherit;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-bottom: 2px;
+}
+#delete-btn {
+    background-color: white;
+    color: rgb(6, 114, 6);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 14px;
+}
+li {
+    margin-top: 2px;
+}
+li a {
+    color: green;
+}
